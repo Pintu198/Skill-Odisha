@@ -238,6 +238,10 @@ section.corse_details {
 }
 .section1 p {
     font-size: 14px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
 }
 .online-tag {
     background-color: #fff;
@@ -252,10 +256,14 @@ section.corse_details {
 }
 .read-more {
     color: #ff6600;
-    cursor: pointer;
     font-weight: 500;
-    display: block;
-    margin-top: 10px;
+    border: none;
+    background: none;
+    width: 16%;
+    padding: 0;
+}
+.modal-dialog {
+    max-width: 54%!important;
 }
 .section2 {
     padding: 40px 0;
